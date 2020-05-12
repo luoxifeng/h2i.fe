@@ -1,4 +1,10 @@
+---
+title: 使用hooks实现useReducer
+layout: page
+---
+
 模拟实现
+
 ```javascript
 const useReducer = (reducer, initState) => {
   const [state, setState] = useState(initState);
