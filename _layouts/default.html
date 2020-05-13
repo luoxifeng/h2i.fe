@@ -14,9 +14,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/css/autoComplete.min.css">
-
 </head>
 
 <body>
@@ -76,67 +73,7 @@
         ga('send', 'pageview');
     </script>
     {% endif %}
-    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
-    <script>
-        document.querySelector("#autoComplete").addEventListener("autoComplete", function(event) {
-  console.log(event.detail);
-});
-        new autoComplete({
-            data: {                              // Data src [Array, Function, Async] | (REQUIRED)
-                src: async () => {
-                    return [
-                        {
-                            title: "sssss"
-                        }
-                    ];
-                },
-                key: ['title']
-            },
-            placeHolder: "",
-            selector: "#autoComplete",           // Input field selector              | (Optional)
-            // threshold: 3,                        // Min. Chars length to start Engine | (Optional)
-            debounce: 300,                       // Post duration for engine to start | (Optional)
-            resultsList: {                       // Rendered results list object      | (Optional)
-                render: true,
-                container: source => {
-                    source.setAttribute("id", "autoComplete_list");
-                },
-                destination: document.querySelector("#autoComplete"),
-                position: "afterend",
-                element: "ul"
-            },
-            maxResults: 5,                         // Max. number of rendered results | (Optional)
-            highlight: true,                       // Highlight matching results      | (Optional)
-            resultItem: {                          // Rendered result item            | (Optional)
-                content: (data, source) => {
-                    source.innerHTML = data.match || 'sssss';
-                },
-                element: "li"
-            },
-            noResults: () => {                     // Action script on noResults      | (Optional)
-                const result = document.createElement("li");
-                result.setAttribute("class", "no_result");
-                result.setAttribute("tabindex", "1");
-                result.innerHTML = "No Results";
-                document.querySelector("#autoComplete_list").appendChild(result);
-            },
-            onSelection: feedback => {             // Action script onSelection event | (Optional)
-                console.log(feedback.selection.value.image_url);
-            }
-        });
-        ["focus", "blur"].forEach(function(eventType) {
-  const resultsList = document.querySelector("#autoComplete_list");
-
-  document.querySelector("#autoComplete").addEventListener(eventType, function() {
-    // Hide results list & show other elemennts
-    if (eventType === "blur") {
-      resultsList.style.display = "none";
-    } else if (eventType === "focus") {
-      resultsList.style.display = "block";
-    }
-  });
-});
-    </script>
+    {% include autocomplete/index.html %}
 </body>
 
 </html>
