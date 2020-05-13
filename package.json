@@ -1,0 +1,24 @@
+{
+  "name": "h2i.fe",
+  "version": "1.0.0",
+  "description": "前端知识原理的一些实现",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pre_env": "node ./scripts/pre_env.js",
+    "start": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoxifeng/h2i.fe.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luoxifeng/h2i.fe/issues"
+  },
+  "homepage": "https://github.com/luoxifeng/h2i.fe#readme"
+}
