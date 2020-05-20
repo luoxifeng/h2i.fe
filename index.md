@@ -10,6 +10,10 @@ layout: default
 # HTML
 
 # Javascript
+  - [实现instanceof操作符](./docs/react/实现instanceof操作符.html)
+  - [实现new操作符](./docs/react/实现new操作符.html)  
+  - [实现Promise.all功能](./docs/react/实现Promise.all功能.html)
+  - [实现Promise.retry功能](./docs/react/实现Promise.retry功能.html)
 
 # Css
 
