@@ -12,7 +12,7 @@ layout: default
 ## HTML
 
 - [实现事件代理](./docs/html/实现事件代理.html)
-- 
+- [实现检测浏览器是否支持webp](./docs/html/实现检测浏览器是否支持webp.html)
 
 ## Javascript
 
