@@ -25,7 +25,7 @@ layout: default
 - [实现Array.prototype.indexOf](./docs/javascript/实现Array.prototype.indexOf.md)
 - [实现简单数组的去重](./docs/javascript/实现简单数组的去重.html)
 - [实现对象的浅拷贝](./docs/javascript/实现对象的浅拷贝.md)
-
+- 实现判断一个值是不是NaN
 ## Css
 
 - [实现圣杯布局](./docs/css/实现圣杯布局.html)
