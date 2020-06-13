@@ -26,6 +26,7 @@ layout: default
 - [实现简单数组的去重](./docs/javascript/实现简单数组的去重.html)
 - [实现对象的浅拷贝](./docs/javascript/实现对象的浅拷贝.md)
 - 实现判断一个值是不是NaN
+- 判断一个值是否是数组
 ## Css
 
 - [实现圣杯布局](./docs/css/实现圣杯布局.html)
