@@ -28,6 +28,7 @@ layout: default
 - 实现判断一个值是不是NaN
 - 判断一个值是否是数组
 - 实现Function.prototype.bind
+- 实现函数组合和管道（compose & pipe）
 ## Css
 
 - [实现圣杯布局](./docs/css/实现圣杯布局.html)
