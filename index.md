@@ -27,6 +27,7 @@ layout: default
 - [实现对象的浅拷贝](./docs/javascript/实现对象的浅拷贝.md)
 - 实现判断一个值是不是NaN
 - 判断一个值是否是数组
+- 实现函数科里化
 - 实现Function.prototype.bind
 - 实现函数组合和管道（compose & pipe）
 ## Css
