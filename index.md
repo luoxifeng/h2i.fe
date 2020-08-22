@@ -30,6 +30,7 @@ layout: default
 - 实现函数科里化
 - 实现Function.prototype.bind
 - 实现函数组合和管道（compose & pipe）
+- 实现Symbol
 ## Css
 
 - [实现圣杯布局](./docs/css/实现圣杯布局.html)
