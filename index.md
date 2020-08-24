@@ -31,6 +31,7 @@ layout: default
 - 实现Function.prototype.bind
 - 实现函数组合和管道（compose & pipe）
 - 实现Symbol
+- 实现Object.prototype.toString.call返回的是构造函数的name
 ## Css
 
 - [实现圣杯布局](./docs/css/实现圣杯布局.html)
