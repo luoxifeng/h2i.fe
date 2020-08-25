@@ -23,6 +23,7 @@ layout: default
 - [实现对象的继承](./docs/react/实现对象的继承.html)
 - [实现Array.prototype.flat](./docs/react/实现Array.prototype.flat.html)
 - [实现Array.prototype.indexOf](./docs/javascript/实现Array.prototype.indexOf.md)
+- 实现Array.prototype.includes
 - [实现简单数组的去重](./docs/javascript/实现简单数组的去重.html)
 - [实现对象的浅拷贝](./docs/javascript/实现对象的浅拷贝.md)
 - 实现判断一个值是不是NaN
@@ -32,6 +33,7 @@ layout: default
 - 实现函数组合和管道（compose & pipe）
 - 实现Symbol
 - 实现Object.prototype.toString.call返回的是构造函数的name
+
 ## Css
 
 - [实现圣杯布局](./docs/css/实现圣杯布局.html)
